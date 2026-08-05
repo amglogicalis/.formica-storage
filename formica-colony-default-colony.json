@@ -57,6 +57,13 @@
   },
   "logs": [
     {
+      "logId": "log_msg3mznl_ob8g",
+      "level": "warn",
+      "source": "Lumina",
+      "message": "Intento de login desde nueva ubicacion desconocida",
+      "timestamp": "2026-08-05T13:04:45.825Z"
+    },
+    {
       "logId": "log_msg3myyd_uuq4",
       "level": "info",
       "source": "Sinchlor",
@@ -160,7 +167,7 @@
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:04:44.917Z",
+  "updatedAt": "2026-08-05T13:04:45.825Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
