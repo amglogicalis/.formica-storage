@@ -72,6 +72,12 @@
   "logs": [
     {
       "level": "info",
+      "source": "Combase",
+      "message": "🔌 App Terra 'Combase' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
+      "timestamp": "2026-08-05T15:55:07.694Z"
+    },
+    {
+      "level": "info",
       "source": "Termes",
       "message": "🔌 App Terra 'Termes' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
       "timestamp": "2026-08-05T15:54:33.862Z"
@@ -350,6 +356,13 @@
       "icon": "🐜",
       "type": "terra-app",
       "connectedAt": "2026-08-05T15:54:33.862Z"
+    },
+    "combase": {
+      "id": "combase",
+      "name": "Combase",
+      "icon": "📦",
+      "type": "terra-app",
+      "connectedAt": "2026-08-05T15:55:07.694Z"
     }
   },
   "vaultId": "default-colony",
