@@ -178,6 +178,16 @@
       "pathPattern": "/v1/*"
     }
   },
-  "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T11:15:27.133Z"
+  "legionaryAdapters": {
+    "adapter_msfzqgg8_n75w": {
+      "adapterId": "adapter_msfzqgg8_n75w",
+      "name": "Adaptador Producción Sinchlor & Lumina",
+      "provider": "sinchlor",
+      "targetEndpoint": "https://api.myterra.org/purge/endpoint",
+      "rules": [],
+      "active": true,
+      "createdAt": "2026-08-05T11:15:29.096Z"
+    }
+  },
+  "updatedAt": "2026-08-05T11:15:29.096Z"
 }
