@@ -91,6 +91,14 @@
   },
   "logs": [
     {
+      "logId": "log_msfzqapx_ozmn",
+      "level": "info",
+      "source": "AWS-Lambda-Worker",
+      "message": "Miniatura de imagen procesada en 74ms",
+      "correlationId": "corr_img_441",
+      "timestamp": "2026-08-05T11:15:21.669Z"
+    },
+    {
       "logId": "log_msfzqa03_785o",
       "level": "warn",
       "source": "Lumina-Auth",
@@ -108,5 +116,5 @@
   ],
   "soldierRules": {},
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T11:15:20.739Z"
+  "updatedAt": "2026-08-05T11:15:21.669Z"
 }
