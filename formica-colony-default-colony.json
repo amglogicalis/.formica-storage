@@ -72,6 +72,12 @@
   "logs": [
     {
       "level": "info",
+      "source": "Termes",
+      "message": "🔌 App Terra 'Termes' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
+      "timestamp": "2026-08-05T15:54:33.862Z"
+    },
+    {
+      "level": "info",
       "source": "WEBBL",
       "message": "🔌 App Terra 'WEBBL' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
       "timestamp": "2026-08-05T15:54:23.574Z"
@@ -337,6 +343,13 @@
       "icon": "🌐",
       "type": "terra-app",
       "connectedAt": "2026-08-05T15:54:23.574Z"
+    },
+    "termes": {
+      "id": "termes",
+      "name": "Termes",
+      "icon": "🐜",
+      "type": "terra-app",
+      "connectedAt": "2026-08-05T15:54:33.862Z"
     }
   },
   "vaultId": "default-colony",
