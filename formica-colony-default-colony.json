@@ -41,6 +41,20 @@
   },
   "logs": [
     {
+      "logId": "log_msg3ma08_zb25",
+      "level": "info",
+      "source": "AWS-Lambda-Payments",
+      "message": "Transacción procesada correctamente (ID: tx_998)",
+      "timestamp": "2026-08-05T13:04:12.584Z"
+    },
+    {
+      "logId": "log_msg3m9lk_xof8",
+      "level": "warn",
+      "source": "Lumina",
+      "message": "Intento de login desde nueva ubicacion desconocida",
+      "timestamp": "2026-08-05T13:04:12.056Z"
+    },
+    {
       "logId": "log_msg3m8ww_fc7a",
       "level": "info",
       "source": "Sinchlor",
@@ -83,7 +97,7 @@
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:04:11.168Z",
+  "updatedAt": "2026-08-05T13:04:13.129Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
