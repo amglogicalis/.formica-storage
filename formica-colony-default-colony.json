@@ -1,4 +1,5 @@
 {
+  "vaultId": "default-colony",
   "subscriptions": {
     "sub_msg3m5zr_p208": {
       "subId": "sub_msg3m5zr_p208",
@@ -47,6 +48,15 @@
       "targetWebhookUrl": "https://httpbin.org/post",
       "active": true,
       "createdAt": "2026-08-05T13:05:34.081Z"
+    },
+    "sub_msg93xwq_r6k3": {
+      "subId": "sub_msg93xwq_r6k3",
+      "topic": "security.alert",
+      "subscriberName": "Lumina-IAM-Security-Hook",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "filterPattern": "SUSPICIOUS_LOGIN",
+      "active": true,
+      "createdAt": "2026-08-05T15:37:54.794Z"
     }
   },
   "chambers": {
@@ -314,6 +324,5 @@
       "connectedAt": "2026-08-05T15:25:24.408Z"
     }
   },
-  "vaultId": "default-colony",
-  "updatedAt": "2026-08-05T13:05:38.891Z"
+  "updatedAt": "2026-08-05T15:37:54.794Z"
 }
