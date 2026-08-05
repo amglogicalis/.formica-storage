@@ -91,6 +91,13 @@
   },
   "logs": [
     {
+      "logId": "log_msfzqbei_s056",
+      "level": "error",
+      "source": "Azure-EventGrid",
+      "message": "Timeout al conectar con el nodo secundario de base de datos",
+      "timestamp": "2026-08-05T11:15:22.554Z"
+    },
+    {
       "logId": "log_msfzqapx_ozmn",
       "level": "info",
       "source": "AWS-Lambda-Worker",
@@ -116,5 +123,5 @@
   ],
   "soldierRules": {},
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T11:15:21.669Z"
+  "updatedAt": "2026-08-05T11:15:22.554Z"
 }
