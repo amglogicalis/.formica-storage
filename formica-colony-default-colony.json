@@ -1,5 +1,4 @@
 {
-  "vaultId": "default-colony",
   "subscriptions": {
     "sub_msg3m5zr_p208": {
       "subId": "sub_msg3m5zr_p208",
@@ -72,6 +71,12 @@
     }
   },
   "logs": [
+    {
+      "level": "info",
+      "source": "Rolla",
+      "message": "🔌 App Terra 'Rolla' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
+      "timestamp": "2026-08-05T15:25:24.408Z"
+    },
     {
       "logId": "log_msg3o46i_zn7j",
       "level": "info",
@@ -253,7 +258,6 @@
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:05:38.891Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
@@ -282,6 +286,15 @@
       "icon": "⚡",
       "type": "external-aws",
       "connectedAt": "2026-08-05T13:05:31.628Z"
+    },
+    "rolla": {
+      "id": "rolla",
+      "name": "Rolla",
+      "icon": "🎲",
+      "type": "terra-app",
+      "connectedAt": "2026-08-05T15:25:24.408Z"
     }
-  }
+  },
+  "vaultId": "default-colony",
+  "updatedAt": "2026-08-05T13:05:38.891Z"
 }
