@@ -73,6 +73,20 @@
   },
   "logs": [
     {
+      "logId": "log_msg3o3ds_fv3f",
+      "level": "warn",
+      "source": "Lumina",
+      "message": "Intento de login desde nueva ubicacion desconocida",
+      "timestamp": "2026-08-05T13:05:37.312Z"
+    },
+    {
+      "logId": "log_msg3o2z8_1pde",
+      "level": "info",
+      "source": "Sinchlor",
+      "message": "Ataque SQLmap detectado y bloqueado por WAF Guard",
+      "timestamp": "2026-08-05T13:05:36.788Z"
+    },
+    {
       "logId": "log_msg3o06a_ruua",
       "level": "warn",
       "source": "Sinchlor",
@@ -232,7 +246,7 @@
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:05:35.678Z",
+  "updatedAt": "2026-08-05T13:05:37.312Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
