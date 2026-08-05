@@ -1,5 +1,4 @@
 {
-  "vaultId": "default-colony",
   "subscriptions": {
     "sub_msg3m5zr_p208": {
       "subId": "sub_msg3m5zr_p208",
@@ -201,7 +200,9 @@
       "name": "Sinchlor",
       "icon": "🐝",
       "type": "terra-app",
-      "connectedAt": "2026-08-05T13:05:31.628Z"
+      "connectedAt": "2026-08-05T13:05:31.628Z",
+      "active": false,
+      "disconnectedAt": "2026-08-05T20:54:06.375Z"
     },
     "lumina": {
       "id": "lumina",
@@ -253,5 +254,6 @@
       "connectedAt": "2026-08-05T15:55:07.694Z"
     }
   },
+  "vaultId": "default-colony",
   "updatedAt": "2026-08-05T16:21:39.381Z"
 }
