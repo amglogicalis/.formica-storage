@@ -57,6 +57,13 @@
   },
   "logs": [
     {
+      "logId": "log_msg3myyd_uuq4",
+      "level": "info",
+      "source": "Sinchlor",
+      "message": "Ataque SQLmap detectado y bloqueado por WAF Guard",
+      "timestamp": "2026-08-05T13:04:44.917Z"
+    },
+    {
       "logId": "log_msg3mwbh_47bq",
       "level": "warn",
       "source": "Sinchlor",
@@ -153,7 +160,7 @@
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:04:43.893Z",
+  "updatedAt": "2026-08-05T13:04:44.917Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
