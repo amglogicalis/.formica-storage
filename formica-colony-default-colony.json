@@ -32,6 +32,14 @@
       "targetWebhookUrl": "https://httpbin.org/post",
       "active": true,
       "createdAt": "2026-08-05T13:04:42.461Z"
+    },
+    "sub_msg3o06s_hsmf": {
+      "subId": "sub_msg3o06s_hsmf",
+      "topic": "security.alert",
+      "subscriberName": "Sinchlor-Honeytrap-Alerts",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "active": true,
+      "createdAt": "2026-08-05T13:05:33.172Z"
     }
   },
   "chambers": {
@@ -56,6 +64,14 @@
     }
   },
   "logs": [
+    {
+      "logId": "log_msg3o06a_ruua",
+      "level": "warn",
+      "source": "Sinchlor",
+      "message": "🛡️ WAF Blocked request from IP ::ffff:127.0.0.1 on path '/api/admin/users' (Rule: Bloqueo de Scrapers y SQLmap)",
+      "correlationId": "rule_msg3m4s3_h4ha",
+      "timestamp": "2026-08-05T13:05:33.154Z"
+    },
     {
       "logId": "log_msg3n0c0_gaab",
       "level": "info",
@@ -189,10 +205,26 @@
       "createdAt": "2026-08-05T13:05:31.629Z",
       "pathPattern": "/api/admin/*",
       "maxRequestsPerMin": 60
+    },
+    "rule_msg3nzrr_w110": {
+      "ruleId": "rule_msg3nzrr_w110",
+      "name": "Rate Limit Excedido (3 req/min)",
+      "targetApp": "Sinchlor",
+      "priority": 5,
+      "action": "rate_limit",
+      "customPayload": {
+        "error": "Too Many Requests",
+        "message": "Formica WAF: Has excedido 3 peticiones por minuto"
+      },
+      "customStatusCode": 429,
+      "active": true,
+      "createdAt": "2026-08-05T13:05:32.631Z",
+      "pathPattern": "/api/login",
+      "maxRequestsPerMin": 3
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:05:31.629Z",
+  "updatedAt": "2026-08-05T13:05:33.172Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
