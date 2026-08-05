@@ -91,6 +91,13 @@
   },
   "logs": [
     {
+      "logId": "log_1785929088391",
+      "level": "info",
+      "source": "Anthill-Pheromones",
+      "message": "Event [security.alert] from 'Simulation-Script' -> 2 subscribers",
+      "timestamp": "2026-08-05T11:24:47.927Z"
+    },
+    {
       "logId": "log_msfzqckt_ab3p",
       "level": "debug",
       "source": "Ballom-Shortlinks",
