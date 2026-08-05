@@ -91,6 +91,14 @@
   },
   "logs": [
     {
+      "logId": "log_msfzqa03_785o",
+      "level": "warn",
+      "source": "Lumina-Auth",
+      "message": "3 intentos fallidos de login para usuario @admin",
+      "correlationId": "corr_auth_881",
+      "timestamp": "2026-08-05T11:15:20.739Z"
+    },
+    {
       "logId": "log_msfzq9b3_o448",
       "level": "info",
       "source": "Sinchlor-API",
@@ -100,5 +108,5 @@
   ],
   "soldierRules": {},
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T11:15:19.839Z"
+  "updatedAt": "2026-08-05T11:15:20.739Z"
 }
