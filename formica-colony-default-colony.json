@@ -91,6 +91,20 @@
   },
   "logs": [
     {
+      "logId": "log_msfzqckt_ab3p",
+      "level": "debug",
+      "source": "Ballom-Shortlinks",
+      "message": "Enlace acortado generado: /l/xyz891",
+      "timestamp": "2026-08-05T11:15:24.077Z"
+    },
+    {
+      "logId": "log_msfzqc5y_zcnt",
+      "level": "info",
+      "source": "Formica-Anthill",
+      "message": "Servidor Anthill arrancado en loop de polling",
+      "timestamp": "2026-08-05T11:15:23.542Z"
+    },
+    {
       "logId": "log_msfzqbei_s056",
       "level": "error",
       "source": "Azure-EventGrid",
@@ -123,5 +137,5 @@
   ],
   "soldierRules": {},
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T11:15:22.554Z"
+  "updatedAt": "2026-08-05T11:15:24.077Z"
 }
