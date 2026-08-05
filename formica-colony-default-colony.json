@@ -106,6 +106,23 @@
   },
   "logs": [
     {
+      "logId": "log_msg95cx2_benm",
+      "level": "info",
+      "source": "Pheromones",
+      "message": "Event Published on topic 'security.alert' by 'Sinchlor' (5 subscribers matched)",
+      "correlationId": "event_msg95c5t_i8s3",
+      "metadata": {
+        "deliveredTo": [
+          "sub_msg3m5zr_p208",
+          "sub_msg3mwc5_zmbt",
+          "sub_msg3o06s_hsmf",
+          "sub_msg93xwq_r6k3",
+          "sub_msg95ajl_6glt"
+        ]
+      },
+      "timestamp": "2026-08-05T15:39:00.902Z"
+    },
+    {
       "logId": "log_msg944by_acki",
       "level": "info",
       "source": "Sinchlor",
@@ -397,5 +414,5 @@
       "connectedAt": "2026-08-05T15:25:24.408Z"
     }
   },
-  "updatedAt": "2026-08-05T15:38:58.971Z"
+  "updatedAt": "2026-08-05T15:39:01.667Z"
 }
