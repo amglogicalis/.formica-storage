@@ -1,22 +1,52 @@
 {
-  "vaultId": "default-colony",
   "subscriptions": {
-    "sub_security_lumina": {
-      "subId": "sub_security_lumina",
+    "sub_msg3m5zr_p208": {
+      "subId": "sub_msg3m5zr_p208",
       "topic": "security.alert",
-      "subscriberName": "Lumina-IAM-Security-Hook",
+      "subscriberName": "Sinchlor-Honeytrap-Alerts",
       "targetWebhookUrl": "https://httpbin.org/post",
-      "filterPattern": "SUSPICIOUS_LOGIN",
       "active": true,
-      "createdAt": "2026-08-05T15:39:29.044Z"
+      "createdAt": "2026-08-05T13:04:07.383Z"
     },
-    "sub_user_aws": {
-      "subId": "sub_user_aws",
+    "sub_msg3m6q3_1w8h": {
+      "subId": "sub_msg3m6q3_1w8h",
       "topic": "user.signup",
-      "subscriberName": "AWS-PaymentWorker-Initializer",
+      "subscriberName": "Lumina-IAM-Sync",
       "targetWebhookUrl": "https://httpbin.org/post",
       "active": true,
-      "createdAt": "2026-08-05T15:39:29.044Z"
+      "createdAt": "2026-08-05T13:04:08.331Z"
+    },
+    "sub_msg3mwc5_zmbt": {
+      "subId": "sub_msg3mwc5_zmbt",
+      "topic": "security.alert",
+      "subscriberName": "Sinchlor-Honeytrap-Alerts",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "active": true,
+      "createdAt": "2026-08-05T13:04:41.525Z"
+    },
+    "sub_msg3mx25_xry4": {
+      "subId": "sub_msg3mx25_xry4",
+      "topic": "user.signup",
+      "subscriberName": "Lumina-IAM-Sync",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "active": true,
+      "createdAt": "2026-08-05T13:04:42.461Z"
+    },
+    "sub_msg3o06s_hsmf": {
+      "subId": "sub_msg3o06s_hsmf",
+      "topic": "security.alert",
+      "subscriberName": "Sinchlor-Honeytrap-Alerts",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "active": true,
+      "createdAt": "2026-08-05T13:05:33.172Z"
+    },
+    "sub_msg3o0w1_o21k": {
+      "subId": "sub_msg3o0w1_o21k",
+      "topic": "user.signup",
+      "subscriberName": "Lumina-IAM-Sync",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "active": true,
+      "createdAt": "2026-08-05T13:05:34.081Z"
     }
   },
   "chambers": {
@@ -41,116 +71,10 @@
   },
   "logs": [
     {
-      "logId": "log_msg95hy2_iy4o",
       "level": "info",
-      "source": "Sinchlor",
-      "message": "🧪 Event 'security.alert' delivered to subscriber 'Lumina-IAM-Security-Hook' (HTTP 200)",
-      "correlationId": "event_msg95c5t_i8s3",
-      "timestamp": "2026-08-05T15:39:07.418Z"
-    },
-    {
-      "logId": "log_msg95hcw_zjdq",
-      "level": "info",
-      "source": "Sinchlor",
-      "message": "🧪 Event 'security.alert' delivered to subscriber 'Lumina-IAM-Security-Hook' (HTTP 503)",
-      "correlationId": "event_msg95c5t_i8s3",
-      "timestamp": "2026-08-05T15:39:06.656Z"
-    },
-    {
-      "logId": "log_msg95gfp_0dln",
-      "level": "info",
-      "source": "Sinchlor",
-      "message": "🧪 Event 'security.alert' delivered to subscriber 'Sinchlor-Honeytrap-Alerts' (HTTP 503)",
-      "correlationId": "event_msg95c5t_i8s3",
-      "timestamp": "2026-08-05T15:39:05.461Z"
-    },
-    {
-      "logId": "log_msg95fhn_xq62",
-      "level": "info",
-      "source": "Sinchlor",
-      "message": "🧪 Event 'security.alert' delivered to subscriber 'Sinchlor-Honeytrap-Alerts' (HTTP 503)",
-      "correlationId": "event_msg95c5t_i8s3",
-      "timestamp": "2026-08-05T15:39:04.235Z"
-    },
-    {
-      "logId": "log_msg95efh_mfcr",
-      "level": "info",
-      "source": "Sinchlor",
-      "message": "🧪 Event 'security.alert' delivered to subscriber 'Sinchlor-Honeytrap-Alerts' (HTTP 503)",
-      "correlationId": "event_msg95c5t_i8s3",
-      "timestamp": "2026-08-05T15:39:02.861Z"
-    },
-    {
-      "logId": "log_msg95cx2_benm",
-      "level": "info",
-      "source": "Pheromones",
-      "message": "Event Published on topic 'security.alert' by 'Sinchlor' (5 subscribers matched)",
-      "correlationId": "event_msg95c5t_i8s3",
-      "metadata": {
-        "deliveredTo": [
-          "sub_msg3m5zr_p208",
-          "sub_msg3mwc5_zmbt",
-          "sub_msg3o06s_hsmf",
-          "sub_msg93xwq_r6k3",
-          "sub_msg95ajl_6glt"
-        ]
-      },
-      "timestamp": "2026-08-05T15:39:00.902Z"
-    },
-    {
-      "logId": "log_msg944by_acki",
-      "level": "info",
-      "source": "Sinchlor",
-      "message": "🧪 Event 'security.alert' delivered to subscriber 'Lumina-IAM-Security-Hook' (HTTP 503)",
-      "correlationId": "event_msg93zlj_0js6",
-      "timestamp": "2026-08-05T15:38:03.118Z"
-    },
-    {
-      "logId": "log_msg943iw_wkoh",
-      "level": "info",
-      "source": "Sinchlor",
-      "message": "🧪 Event 'security.alert' delivered to subscriber 'Sinchlor-Honeytrap-Alerts' (HTTP 503)",
-      "correlationId": "event_msg93zlj_0js6",
-      "timestamp": "2026-08-05T15:38:02.072Z"
-    },
-    {
-      "logId": "log_msg942nx_0jek",
-      "level": "info",
-      "source": "Sinchlor",
-      "message": "🧪 Event 'security.alert' delivered to subscriber 'Sinchlor-Honeytrap-Alerts' (HTTP 503)",
-      "correlationId": "event_msg93zlj_0js6",
-      "timestamp": "2026-08-05T15:38:00.958Z"
-    },
-    {
-      "logId": "log_msg9423p_m1rx",
-      "level": "info",
-      "source": "Sinchlor",
-      "message": "🧪 Event 'security.alert' delivered to subscriber 'Sinchlor-Honeytrap-Alerts' (HTTP 503)",
-      "correlationId": "event_msg93zlj_0js6",
-      "timestamp": "2026-08-05T15:38:00.229Z"
-    },
-    {
-      "logId": "log_msg940bv_74vp",
-      "level": "info",
-      "source": "Pheromones",
-      "message": "Event Published on topic 'security.alert' by 'Sinchlor' (4 subscribers matched)",
-      "correlationId": "event_msg93zlj_0js6",
-      "metadata": {
-        "deliveredTo": [
-          "sub_msg3m5zr_p208",
-          "sub_msg3mwc5_zmbt",
-          "sub_msg3o06s_hsmf",
-          "sub_msg93xwq_r6k3"
-        ]
-      },
-      "timestamp": "2026-08-05T15:37:57.931Z"
-    },
-    {
-      "logId": "log_1785944199639",
-      "level": "info",
-      "source": "test",
-      "message": "🔌 Provider Personalizado 'test' [NODE-FETCH] registrado y conectado.",
-      "timestamp": "2026-08-05T15:36:39.638Z"
+      "source": "dsadasd",
+      "message": "🔌 Provider Personalizado 'dsadasd' [NODE-FETCH] registrado y conectado.",
+      "timestamp": "2026-08-05T15:41:34.670Z"
     },
     {
       "level": "info",
@@ -387,7 +311,15 @@
       "icon": "🎲",
       "type": "terra-app",
       "connectedAt": "2026-08-05T15:25:24.408Z"
+    },
+    "custom_dsadasd": {
+      "id": "custom_dsadasd",
+      "name": "dsadasd",
+      "icon": "⚡",
+      "type": "external-node-fetch",
+      "connectedAt": "2026-08-05T15:41:34.670Z"
     }
   },
-  "updatedAt": "2026-08-05T15:39:29.044Z"
+  "vaultId": "default-colony",
+  "updatedAt": "2026-08-05T13:05:38.891Z"
 }
