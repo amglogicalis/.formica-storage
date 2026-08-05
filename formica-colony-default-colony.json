@@ -18,7 +18,16 @@
       "createdAt": "2026-08-05T13:04:08.331Z"
     }
   },
-  "chambers": {},
+  "chambers": {
+    "chamber_user_sessions": {
+      "chamberId": "chamber_user_sessions",
+      "name": "Sesiones de Usuarios Prod",
+      "description": "Caché de sesiones activa",
+      "entries": {},
+      "createdAt": "2026-08-05T13:04:09.277Z",
+      "updatedAt": "2026-08-05T13:04:09.277Z"
+    }
+  },
   "logs": [],
   "soldierRules": {
     "rule_msg3m4s3_h4ha": {
@@ -55,7 +64,7 @@
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:04:08.331Z",
+  "updatedAt": "2026-08-05T13:04:09.277Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
