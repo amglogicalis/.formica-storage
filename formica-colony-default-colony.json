@@ -71,6 +71,13 @@
   },
   "logs": [
     {
+      "logId": "log_1785945453987",
+      "level": "info",
+      "source": "Combase",
+      "message": "🔌 App Terra 'Combase' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
+      "timestamp": "2026-08-05T15:57:33.987Z"
+    },
+    {
       "level": "info",
       "source": "Combase",
       "message": "🔌 App Terra 'Combase' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
