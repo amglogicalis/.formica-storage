@@ -57,6 +57,13 @@
   },
   "logs": [
     {
+      "logId": "log_msg3n0c0_gaab",
+      "level": "info",
+      "source": "AWS-Lambda-Payments",
+      "message": "Transacción procesada correctamente (ID: tx_998)",
+      "timestamp": "2026-08-05T13:04:46.704Z"
+    },
+    {
       "logId": "log_msg3mznl_ob8g",
       "level": "warn",
       "source": "Lumina",
@@ -167,7 +174,7 @@
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:04:45.825Z",
+  "updatedAt": "2026-08-05T13:04:46.704Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
