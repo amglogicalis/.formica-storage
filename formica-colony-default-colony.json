@@ -1,4 +1,5 @@
 {
+  "vaultId": "default-colony",
   "subscriptions": {
     "sub_msg3m5zr_p208": {
       "subId": "sub_msg3m5zr_p208",
@@ -170,7 +171,30 @@
       "maxRequestsPerMin": 3
     }
   },
-  "legionaryAdapters": {},
+  "legionaryAdapters": {
+    "adapter_msgao71x_l75m": {
+      "adapterId": "adapter_msgao71x_l75m",
+      "name": "Limpiador Granular Pro",
+      "provider": "sinchlor",
+      "frequency": "0 0 * * *",
+      "groups": [
+        {
+          "groupName": "Néctares Consumidos",
+          "provider": "sinchlor",
+          "filter": "nectars_consumed"
+        },
+        {
+          "groupName": "Users Especiales",
+          "provider": "lumina",
+          "filter": "user-*"
+        }
+      ],
+      "targetEndpoint": "https://api.myterra.org/purge-hook",
+      "rules": [],
+      "active": true,
+      "createdAt": "2026-08-05T16:21:39.381Z"
+    }
+  },
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
@@ -229,6 +253,5 @@
       "connectedAt": "2026-08-05T15:55:07.694Z"
     }
   },
-  "vaultId": "default-colony",
-  "updatedAt": "2026-08-05T13:05:38.891Z"
+  "updatedAt": "2026-08-05T16:21:39.381Z"
 }
