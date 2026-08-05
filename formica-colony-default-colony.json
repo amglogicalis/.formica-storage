@@ -89,6 +89,14 @@
   },
   "logs": [
     {
+      "logId": "log_msg943iw_wkoh",
+      "level": "info",
+      "source": "Sinchlor",
+      "message": "🧪 Event 'security.alert' delivered to subscriber 'Sinchlor-Honeytrap-Alerts' (HTTP 503)",
+      "correlationId": "event_msg93zlj_0js6",
+      "timestamp": "2026-08-05T15:38:02.072Z"
+    },
+    {
       "logId": "log_msg942nx_0jek",
       "level": "info",
       "source": "Sinchlor",
@@ -364,5 +372,5 @@
       "connectedAt": "2026-08-05T15:25:24.408Z"
     }
   },
-  "updatedAt": "2026-08-05T15:38:00.958Z"
+  "updatedAt": "2026-08-05T15:38:02.073Z"
 }
