@@ -135,7 +135,20 @@
       "timestamp": "2026-08-05T11:15:19.839Z"
     }
   ],
-  "soldierRules": {},
+  "soldierRules": {
+    "rule_msfzqdc5_lrfx": {
+      "ruleId": "rule_msfzqdc5_lrfx",
+      "name": "Whitelist Subred Interna",
+      "targetApp": "*",
+      "priority": 1,
+      "action": "allow",
+      "ipPattern": "10.0.0.0/8",
+      "customStatusCode": 200,
+      "active": true,
+      "createdAt": "2026-08-05T11:15:25.061Z",
+      "pathPattern": "*"
+    }
+  },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T11:15:24.077Z"
+  "updatedAt": "2026-08-05T11:15:25.061Z"
 }
