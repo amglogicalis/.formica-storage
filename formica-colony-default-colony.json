@@ -160,8 +160,24 @@
       "active": true,
       "createdAt": "2026-08-05T11:15:26.257Z",
       "pathPattern": "/api/*"
+    },
+    "rule_msfzqexp_ptuj": {
+      "ruleId": "rule_msfzqexp_ptuj",
+      "name": "Rate Limit Excedido (Custom Response)",
+      "targetApp": "api.myterra.org",
+      "priority": 10,
+      "action": "custom_payload",
+      "customPayload": {
+        "error": "Too Many Requests",
+        "retryAfterSec": 60,
+        "terraMessage": "Por favor espera 1 minuto antes de reintentar"
+      },
+      "customStatusCode": 429,
+      "active": true,
+      "createdAt": "2026-08-05T11:15:27.133Z",
+      "pathPattern": "/v1/*"
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T11:15:26.257Z"
+  "updatedAt": "2026-08-05T11:15:27.133Z"
 }
