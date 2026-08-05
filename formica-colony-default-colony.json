@@ -71,6 +71,13 @@
   },
   "logs": [
     {
+      "logId": "log_1785944199639",
+      "level": "info",
+      "source": "test",
+      "message": "🔌 Provider Personalizado 'test' [NODE-FETCH] registrado y conectado.",
+      "timestamp": "2026-08-05T15:36:39.638Z"
+    },
+    {
       "level": "info",
       "source": "test",
       "message": "🔌 Provider Personalizado 'test' [NODE-FETCH] registrado y conectado.",
