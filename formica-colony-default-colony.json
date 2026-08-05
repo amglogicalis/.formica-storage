@@ -8,6 +8,14 @@
       "targetWebhookUrl": "https://httpbin.org/post",
       "active": true,
       "createdAt": "2026-08-05T13:04:07.383Z"
+    },
+    "sub_msg3m6q3_1w8h": {
+      "subId": "sub_msg3m6q3_1w8h",
+      "topic": "user.signup",
+      "subscriberName": "Lumina-IAM-Sync",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "active": true,
+      "createdAt": "2026-08-05T13:04:08.331Z"
     }
   },
   "chambers": {},
@@ -47,7 +55,7 @@
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:04:07.383Z",
+  "updatedAt": "2026-08-05T13:04:08.331Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
