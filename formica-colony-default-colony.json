@@ -111,10 +111,25 @@
       "active": true,
       "createdAt": "2026-08-05T13:04:39.693Z",
       "pathPattern": "/api/admin/*"
+    },
+    "rule_msg3mvlu_nwtr": {
+      "ruleId": "rule_msg3mvlu_nwtr",
+      "name": "Rate Limit Excedido (3 req/min)",
+      "targetApp": "Sinchlor",
+      "priority": 5,
+      "action": "rate_limit",
+      "customPayload": {
+        "error": "Too Many Requests",
+        "message": "Formica WAF: Has excedido 3 peticiones por minuto"
+      },
+      "customStatusCode": 429,
+      "active": true,
+      "createdAt": "2026-08-05T13:04:40.578Z",
+      "pathPattern": "/api/login"
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:04:39.693Z",
+  "updatedAt": "2026-08-05T13:04:40.578Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
