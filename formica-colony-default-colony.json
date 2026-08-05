@@ -57,6 +57,14 @@
       "filterPattern": "SUSPICIOUS_LOGIN",
       "active": true,
       "createdAt": "2026-08-05T15:37:54.794Z"
+    },
+    "sub_msg93yqc_r371": {
+      "subId": "sub_msg93yqc_r371",
+      "topic": "user.signup",
+      "subscriberName": "AWS-PaymentWorker-Initializer",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "active": true,
+      "createdAt": "2026-08-05T15:37:55.860Z"
     }
   },
   "chambers": {
@@ -324,5 +332,5 @@
       "connectedAt": "2026-08-05T15:25:24.408Z"
     }
   },
-  "updatedAt": "2026-08-05T15:37:54.794Z"
+  "updatedAt": "2026-08-05T15:37:55.860Z"
 }
