@@ -186,8 +186,25 @@
       "targetEndpoint": "https://api.myterra.org/purge/endpoint",
       "rules": [],
       "active": true,
-      "createdAt": "2026-08-05T11:15:29.096Z"
+      "createdAt": "2026-08-05T11:15:29.096Z",
+      "groups": [
+        {
+          "groupName": "Néctares Expirados Sinchlor",
+          "provider": "sinchlor",
+          "filter": "expired_only"
+        },
+        {
+          "groupName": "MagicLinks Agotados Lumina",
+          "provider": "lumina",
+          "filter": "used_or_expired"
+        },
+        {
+          "groupName": "Cache Temporal WEBBL",
+          "provider": "webbl",
+          "filter": "older_than_24h"
+        }
+      ]
     }
   },
-  "updatedAt": "2026-08-05T11:15:29.096Z"
+  "updatedAt": "2026-08-05T11:15:30.064Z"
 }
