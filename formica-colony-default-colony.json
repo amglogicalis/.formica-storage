@@ -65,6 +65,15 @@
       "targetWebhookUrl": "https://httpbin.org/post",
       "active": true,
       "createdAt": "2026-08-05T15:37:55.860Z"
+    },
+    "sub_msg95ajl_6glt": {
+      "subId": "sub_msg95ajl_6glt",
+      "topic": "security.alert",
+      "subscriberName": "Lumina-IAM-Security-Hook",
+      "targetWebhookUrl": "http://127.0.0.1:4005/webhook",
+      "filterPattern": "SUSPICIOUS_LOGIN",
+      "active": true,
+      "createdAt": "2026-08-05T15:38:57.825Z"
     }
   },
   "chambers": {
@@ -380,5 +389,5 @@
       "connectedAt": "2026-08-05T15:25:24.408Z"
     }
   },
-  "updatedAt": "2026-08-05T15:38:04.441Z"
+  "updatedAt": "2026-08-05T15:38:57.825Z"
 }
