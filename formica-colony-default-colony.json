@@ -71,6 +71,12 @@
   },
   "logs": [
     {
+      "level": "info",
+      "source": "test",
+      "message": "🔌 Provider Personalizado 'test' [NODE-FETCH] registrado y conectado.",
+      "timestamp": "2026-08-05T15:36:18.358Z"
+    },
+    {
       "logId": "log_1785943541821",
       "level": "info",
       "source": "Rolla",
@@ -299,6 +305,13 @@
       "icon": "🎲",
       "type": "terra-app",
       "connectedAt": "2026-08-05T15:25:24.408Z"
+    },
+    "custom_test": {
+      "id": "custom_test",
+      "name": "test",
+      "icon": "⚡",
+      "type": "external-node-fetch",
+      "connectedAt": "2026-08-05T15:36:18.358Z"
     }
   },
   "vaultId": "default-colony",
