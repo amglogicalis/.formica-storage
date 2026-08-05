@@ -72,6 +72,13 @@
   },
   "logs": [
     {
+      "logId": "log_1785943541821",
+      "level": "info",
+      "source": "Rolla",
+      "message": "🔌 App Terra 'Rolla' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
+      "timestamp": "2026-08-05T15:25:41.820Z"
+    },
+    {
       "level": "info",
       "source": "Rolla",
       "message": "🔌 App Terra 'Rolla' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
