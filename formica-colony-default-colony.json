@@ -1,0 +1,18 @@
+{
+  "vaultId": "default-colony",
+  "subscriptions": {
+    "sub_msfzq5dv_ty3f": {
+      "subId": "sub_msfzq5dv_ty3f",
+      "topic": "security.alert",
+      "subscriberName": "Sinchlor-Honeytrap-Alerts",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "active": true,
+      "createdAt": "2026-08-05T11:15:14.755Z"
+    }
+  },
+  "chambers": {},
+  "logs": [],
+  "soldierRules": {},
+  "legionaryAdapters": {},
+  "updatedAt": "2026-08-05T11:15:14.755Z"
+}
