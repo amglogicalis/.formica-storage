@@ -171,38 +171,56 @@
       "active": true,
       "createdAt": "2026-08-05T13:04:40.578Z",
       "pathPattern": "/api/login"
+    },
+    "rule_msg3nyzx_78j6": {
+      "ruleId": "rule_msg3nyzx_78j6",
+      "name": "Bloqueo de Scrapers y SQLmap",
+      "targetApp": "Sinchlor",
+      "priority": 1,
+      "action": "block",
+      "headerName": "user-agent",
+      "headerValuePattern": "sqlmap.*",
+      "customPayload": {
+        "error": "Forbidden",
+        "message": "Bloqueado por Formica Soldiers WAF Guard (Detector SQLmap)"
+      },
+      "customStatusCode": 403,
+      "active": true,
+      "createdAt": "2026-08-05T13:05:31.629Z",
+      "pathPattern": "/api/admin/*",
+      "maxRequestsPerMin": 60
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:04:47.672Z",
+  "updatedAt": "2026-08-05T13:05:31.629Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
       "name": "Sinchlor",
       "icon": "🐝",
       "type": "terra-app",
-      "connectedAt": "2026-08-05T13:04:39.692Z"
+      "connectedAt": "2026-08-05T13:05:31.628Z"
     },
     "lumina": {
       "id": "lumina",
       "name": "Lumina",
       "icon": "💡",
       "type": "terra-app",
-      "connectedAt": "2026-08-05T13:04:39.692Z"
+      "connectedAt": "2026-08-05T13:05:31.628Z"
     },
     "ballom": {
       "id": "ballom",
       "name": "Ballom",
       "icon": "🎈",
       "type": "terra-app",
-      "connectedAt": "2026-08-05T13:04:39.692Z"
+      "connectedAt": "2026-08-05T13:05:31.628Z"
     },
     "custom_aws_payments": {
       "id": "custom_aws_payments",
       "name": "AWS-Lambda-Payments",
       "icon": "⚡",
       "type": "external-aws",
-      "connectedAt": "2026-08-05T13:04:39.692Z"
+      "connectedAt": "2026-08-05T13:05:31.628Z"
     }
   }
 }
