@@ -147,8 +147,21 @@
       "active": true,
       "createdAt": "2026-08-05T11:15:25.061Z",
       "pathPattern": "*"
+    },
+    "rule_msfzqe9d_d52r": {
+      "ruleId": "rule_msfzqe9d_d52r",
+      "name": "Bloqueo de Scrapers y SQLmap",
+      "targetApp": "sinchlor-api",
+      "priority": 5,
+      "action": "block",
+      "headerName": "User-Agent",
+      "headerValuePattern": "sqlmap.*",
+      "customStatusCode": 403,
+      "active": true,
+      "createdAt": "2026-08-05T11:15:26.257Z",
+      "pathPattern": "/api/*"
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T11:15:25.061Z"
+  "updatedAt": "2026-08-05T11:15:26.257Z"
 }
