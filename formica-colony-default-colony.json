@@ -71,6 +71,12 @@
   },
   "logs": [
     {
+      "level": "info",
+      "source": "WEBBL",
+      "message": "🔌 App Terra 'WEBBL' conectada con éxito mediante Auto-Inyector Formica (SDK & WAF Guard activos).",
+      "timestamp": "2026-08-05T15:54:23.574Z"
+    },
+    {
       "logId": "log_1785944822227",
       "level": "info",
       "source": "test",
@@ -324,6 +330,13 @@
       "icon": "🎲",
       "type": "terra-app",
       "connectedAt": "2026-08-05T15:25:24.408Z"
+    },
+    "webbl": {
+      "id": "webbl",
+      "name": "WEBBL",
+      "icon": "🌐",
+      "type": "terra-app",
+      "connectedAt": "2026-08-05T15:54:23.574Z"
     }
   },
   "vaultId": "default-colony",
