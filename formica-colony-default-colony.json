@@ -201,7 +201,8 @@
       "icon": "🐝",
       "type": "terra-app",
       "connectedAt": "2026-08-05T13:05:31.628Z",
-      "active": true
+      "active": false,
+      "disconnectedAt": "2026-08-05T20:58:00.815Z"
     },
     "lumina": {
       "id": "lumina",
