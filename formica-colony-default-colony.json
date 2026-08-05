@@ -141,13 +141,6 @@
       "timestamp": "2026-08-05T13:05:38.346Z"
     },
     {
-      "logId": "log_msg3o3ds_fv3f",
-      "level": "warn",
-      "source": "Lumina",
-      "message": "Intento de login desde nueva ubicacion desconocida",
-      "timestamp": "2026-08-05T13:05:37.312Z"
-    },
-    {
       "logId": "log_msg3o2z8_1pde",
       "level": "info",
       "source": "Sinchlor",
@@ -170,13 +163,6 @@
       "timestamp": "2026-08-05T13:04:46.704Z"
     },
     {
-      "logId": "log_msg3mznl_ob8g",
-      "level": "warn",
-      "source": "Lumina",
-      "message": "Intento de login desde nueva ubicacion desconocida",
-      "timestamp": "2026-08-05T13:04:45.825Z"
-    },
-    {
       "logId": "log_msg3myyd_uuq4",
       "level": "info",
       "source": "Sinchlor",
@@ -197,13 +183,6 @@
       "source": "AWS-Lambda-Payments",
       "message": "Transacción procesada correctamente (ID: tx_998)",
       "timestamp": "2026-08-05T13:04:12.584Z"
-    },
-    {
-      "logId": "log_msg3m9lk_xof8",
-      "level": "warn",
-      "source": "Lumina",
-      "message": "Intento de login desde nueva ubicacion desconocida",
-      "timestamp": "2026-08-05T13:04:12.056Z"
     },
     {
       "logId": "log_msg3m8ww_fc7a",
