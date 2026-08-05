@@ -16,6 +16,14 @@
       "targetWebhookUrl": "https://httpbin.org/post",
       "active": true,
       "createdAt": "2026-08-05T13:04:08.331Z"
+    },
+    "sub_msg3mwc5_zmbt": {
+      "subId": "sub_msg3mwc5_zmbt",
+      "topic": "security.alert",
+      "subscriberName": "Sinchlor-Honeytrap-Alerts",
+      "targetWebhookUrl": "https://httpbin.org/post",
+      "active": true,
+      "createdAt": "2026-08-05T13:04:41.525Z"
     }
   },
   "chambers": {
@@ -40,6 +48,14 @@
     }
   },
   "logs": [
+    {
+      "logId": "log_msg3mwbh_47bq",
+      "level": "warn",
+      "source": "Sinchlor",
+      "message": "🛡️ WAF Blocked request from IP ::ffff:127.0.0.1 on path '/api/admin/users' (Rule: Bloqueo de Scrapers y SQLmap)",
+      "correlationId": "rule_msg3m4s3_h4ha",
+      "timestamp": "2026-08-05T13:04:41.501Z"
+    },
     {
       "logId": "log_msg3ma08_zb25",
       "level": "info",
@@ -129,7 +145,7 @@
     }
   },
   "legionaryAdapters": {},
-  "updatedAt": "2026-08-05T13:04:40.578Z",
+  "updatedAt": "2026-08-05T13:04:41.525Z",
   "connectedProviders": {
     "sinchlor": {
       "id": "sinchlor",
