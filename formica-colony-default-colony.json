@@ -317,13 +317,6 @@
       "icon": "🎲",
       "type": "terra-app",
       "connectedAt": "2026-08-05T15:25:24.408Z"
-    },
-    "custom_test": {
-      "id": "custom_test",
-      "name": "test",
-      "icon": "⚡",
-      "type": "external-azure",
-      "connectedAt": "2026-08-05T15:46:02.845Z"
     }
   },
   "vaultId": "default-colony",
